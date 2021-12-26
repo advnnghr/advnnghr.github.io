@@ -11,9 +11,11 @@ section {
   padding-top: 8rem;
 }
 
+/* font */
 body {
-  font-family: 'Outfit', sans-serif;
+  font-family: 'Oswald', sans-serif;
 }
+/* akhir font */
 
 #ach {
   background-color: #3a98bd;
