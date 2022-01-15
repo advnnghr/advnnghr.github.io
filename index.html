@@ -144,9 +144,11 @@
         </div>
         <div class="row justify-content-center">
           <div class="col-md-4 mb-3 text-center fw-bold">
+            <a href="" data-bs-toggle="modal" data-bs-target="#ser">
             <div class="card" data-aos="zoom-in-right" data-aos-duration="1500">
               <img src="img/sertifikat.jpg" class="card-img-top" alt="sertifikat" />
             </div>
+          </a>
           </div>
         </div>
       </div>
@@ -251,5 +253,31 @@
           .catch((error) => console.error('Error!', error.message));
       });
     </script>
+
+    <!-- modal -->
+    <div class="modal fade" id="ser" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel"><strong>My Certificate</h5></strong>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div class="row">
+              <div class="col-sm-8">
+                <img src="img/sertifikat.jpg" class="d-block w-100" alt="">
+              </div>
+              <div class="col-sm-4 mt-3">
+                <h5>Sertifikat ini saya dapatkan ketika mengikuti BootCamp di Harisenin.com</h5>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary bg-danger" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- akhir modal -->
   </body>
 </html>
